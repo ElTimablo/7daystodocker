@@ -1,5 +1,5 @@
 # 7daystodocker
-Simple script to start a 7 Days to Die server in Docker. Really, really poorly implemented, but I'll fix that eventually.
+Simple script to start a 7 Days to Die server in Docker. Really, really hastily implemented, but I'll fix that eventually.
 
 # Usage
 * Install Docker if you don't already have it. Package names are as follows:
@@ -10,9 +10,8 @@ Simple script to start a 7 Days to Die server in Docker. Really, really poorly i
 
 **Arch** docker
 
-Actually, pretty much everything but Debian just calls the package docker if it's in the repositories. Consult your distribution's documentation for installing third-party packages if it's not.
-
 * Modify serverconfig.xml
+
 Make all your changes before running the script, as the script will currently always overwrite any existing servers you might have.
 
 * Run the script
